@@ -4,7 +4,7 @@ This guide explains how to sync folders like notes and other data locally betwee
 ## Steps are:
 ### Install GSconnect extension from Gnome Extension Manager
 
-### Install KDEconnect application form the Play Store
+### Install KDEconnect application from the Play Store
 
 ### Pair and connect the phone and the laptop
 Note: You may need to install openssl in fedora to use GSconnect.
