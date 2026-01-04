@@ -4,18 +4,18 @@ This guide explains how to sync folders like notes and other data locally betwee
 
 ## Steps are:
 
-### Install GSconnect extension from Gnome Extension Manager
+- ### Install GSconnect extension from Gnome Extension Manager
 
-### Install KDEconnect application from the Play Store
+- ### Install KDEconnect application from the Play Store
 
-### Pair and connect the phone and the laptop
+- ### Pair and connect the phone and the laptop
 
 Note: You may need to install openssl in fedora to use GSconnect.
 ```bash
 sudo dnf install openssl
 ```
 
-### Use the pre provided rsync tool to sync notes and folders
+- ### Use the pre provided rsync tool to sync notes and folders
 
 The command for this is:
 ```bash
@@ -27,7 +27,7 @@ Replace `USER` with user's Home Folder
 
 Note: You may enable bidirectional syncing just by interchanging the source and the destination paths in the rsync command.
 
-### (OPTIONAL) Automate
+- ### (OPTIONAL) Automate
 
 Save the following 4 lines as GSconnectRsync.sh
 ```bash
